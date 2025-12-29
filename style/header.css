@@ -1,0 +1,57 @@
+#header-container{
+  height: 75px;
+  padding: 25px 0px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo:hover{
+  cursor: pointer;
+}
+.nav{
+  height: 25px;
+  width: 387px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav li{
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+.nav li:hover{
+  background-color: #ebebeb;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.down-arrow{
+  margin-left: 8px;
+}
+.signup-icon{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.signup-icon div{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 20px;
+  width: 25px;
+  transition: ease;
+}
+.signup-icon img{
+  width: 25px;
+}
+.signup-icon p{
+  font-size: 18px;
+  font-weight: 500;
+  display: none;
+}
+.signup-icon img:hover{
+  cursor: pointer;
+}
